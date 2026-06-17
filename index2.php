@@ -155,14 +155,14 @@
         </p>
 
 <div class="code-box">
-&lt;script src="https://cdn.jsdelivr.net/npm/darkmode-js/lib/darkmode-js.min.js"&gt;&lt;/script&gt;
+&lt;script src="https://cdn.jsdelivr.net/npm/darkmode-js/lib/darkmode-js.min.js"&gt;&lt;/script&gt;<br>
 
-&lt;script&gt;
-function addDarkmodeWidget() {
-    new Darkmode().showWidget();
-}
+&lt;script&gt;<br>
+&emsp;function addDarkmodeWidget() {<br>
+&emsp;&emsp;new Darkmode().showWidget();<br>
+&emsp;}<br>
 
-window.addEventListener('load', addDarkmodeWidget);
+&emsp;window.addEventListener('load', addDarkmodeWidget);<br>
 &lt;/script&gt;
 </div>
 
@@ -181,20 +181,20 @@ window.addEventListener('load', addDarkmodeWidget);
         </p>
 
 <div class="code-box">
-const options = {
-    bottom: '64px',
-    left: '32px',
-    time: '0.5s',
-    mixColor: '#ffffff',
-    backgroundColor: '#ffffff',
-    buttonColorDark: '#100f2c',
-    buttonColorLight: '#ffffff',
-    saveInCookies: false,
-    label: '🌓',
-    autoMatchOsTheme: true
-};
+const options = {<br>
+&emsp;bottom: '64px',<br>
+&emsp;left: '32px',<br>
+&emsp;time: '0.5s',<br>
+&emsp;mixColor: '#ffffff',<br>
+&emsp;backgroundColor: '#ffffff',<br>
+&emsp;buttonColorDark: '#100f2c',<br>
+&emsp;buttonColorLight: '#ffffff',<br>
+&emsp;saveInCookies: false,<br>
+&emsp;label: '🌓',<br>
+&emsp;autoMatchOsTheme: true<br>
+};<br>
 
-const darkmode = new Darkmode(options);
+const darkmode = new Darkmode(options);<br>
 darkmode.showWidget();
 </div>
 
@@ -213,13 +213,11 @@ darkmode.showWidget();
         </p>
 
 <div class="code-box">
-const darkmode = new Darkmode();
+const darkmode = new Darkmode();<br>
 
-darkmode.toggle();
+darkmode.toggle();<br>
 
-console.log(
-    darkmode.isActivated()
-);
+console.log(darkmode.isActivated());
 </div>
 
         <ul class="mt-4">

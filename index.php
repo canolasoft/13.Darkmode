@@ -130,10 +130,10 @@ body{
         </p>
 
 <div class="code-box">
-:root{
-    --bg-color: #ffffff;
-    --text-color: #212529;
-    --card-bg: #f8f9fa;
+:root{<br>
+&emsp;--bg-color: #ffffff;<br>
+&emsp;--text-color: #212529;<br>
+&emsp;--card-bg: #f8f9fa;<br>
 }
 </div>
 
@@ -151,10 +151,10 @@ body{
         </p>
 
 <div class="code-box">
-.dark-mode{
-    --bg-color: #121212;
-    --text-color: #f8f9fa;
-    --card-bg: #1e1e1e;
+.dark-mode{<br>
+&emsp;--bg-color: #121212;<br>
+&emsp;--text-color: #f8f9fa;<br>
+&emsp;--card-bg: #1e1e1e;<br>
 }
 </div>
 
@@ -172,13 +172,13 @@ body{
         </p>
 
 <div class="code-box">
-body{
-    background: var(--bg-color);
-    color: var(--text-color);
+body{<br>
+&emsp;background: var(--bg-color);<br>
+&emsp;color: var(--text-color);<br>
 }
-
-.card{
-    background: var(--card-bg);
+<br>
+.card{<br>
+&emsp;background: var(--card-bg);<br>
 }
 </div>
 
@@ -192,13 +192,10 @@ body{
 
 <div class="code-box">
 const button =
-document.getElementById("toggleTheme");
+document.getElementById("toggleTheme");<br>
 
-button.addEventListener("click", () => {
-
-    document.documentElement
-            .classList
-            .toggle("dark-mode");
+button.addEventListener("click", () => {<br>
+&emsp;document.documentElement.classList.toggle("dark-mode");<br>
 
 });
 </div>
